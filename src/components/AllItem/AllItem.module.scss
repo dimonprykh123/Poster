@@ -1,0 +1,13 @@
+@import "../../sass/_variables.scss";
+
+.container {
+  padding: 20px;
+  width: 100%;
+  background-color: $listBackgroundColor;
+  border-radius: 12px;
+
+  p {
+    width: 100%;
+    word-wrap: break-word;
+  }
+}

@@ -1,0 +1,45 @@
+@import "../../sass/_variables.scss";
+
+.commentArea {
+  border-radius: 6px;
+  max-width: 50%;
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+  padding: 10px;
+  width: 100%;
+  min-height: 100px;
+  border-color: $blueBackColor;
+  color: $main-txt-color;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 4px $blueBackColor;
+  }
+}
+
+.commentBoxContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 8px;
+  max-width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  color: $blueBackColor;
+  background-color: $forBlueTxtColor;
+  border: none;
+
+  &:hover {
+    background-color: lighten($forBlueTxtColor, 20%);
+    color: darken($blueBackColor, 20%);
+    transition: 0.7s;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,8 @@
+@import "../../sass/_variables.scss";
+.form{
+  padding: 25px;
+  background-color: darken($listBackgroundColor,2%) ;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+}

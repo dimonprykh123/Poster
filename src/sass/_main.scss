@@ -1,0 +1,77 @@
+@import "_variables.scss";
+
+.mainBackColor {
+  background-color: $mainBackgroundColor;
+}
+
+.listBackColor {
+  background-color: $listBackgroundColor;
+}
+
+.lightGreenBackColor {
+  background-color: $greenBackColor;
+}
+
+.lightRedBackColor {
+  background-color: $redBackColor;
+}
+
+.lightBlueBackColor {
+  background-color: $blueBackColor;
+}
+
+.lightPurpleBackColor {
+  background-color: $purpleBackColor;
+}
+
+.lightPinkBackColor{
+  background-color: $pinkBackColor;
+}
+
+.redBackColor{
+  background-color: $forRedTxtColor;
+}
+
+.greenBackColor{
+  background-color: $forGreenTxtColor;
+}
+
+.blueBackColor{
+  background-color: $forBlueTxtColor;
+}
+
+.purpleBackColor{
+  background-color: $forPurpleTxtColor;
+}
+
+.pinkBackColor{
+  background-color: $forPinkTxtColor;
+}
+
+.darkPurpleBackColor{
+  background-color: $capitalTxtColor;
+}
+
+.redTxtColor{
+  color: $forRedTxtColor;
+}
+
+.greenTxtColor{
+  color: $forGreenTxtColor;
+}
+
+.blueTxtColor{
+  color: $forBlueTxtColor;
+}
+
+.purpleTxtColor{
+  color: $forPurpleTxtColor;
+}
+
+.pinkTxtColor{
+  color: $forPinkTxtColor;
+}
+
+.darkPurpleTxtBackColor{
+  color: $capitalTxtColor;
+}

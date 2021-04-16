@@ -1,0 +1,22 @@
+@import "../../sass/_variables.scss";
+
+.mainContainer {
+  padding: 10px;
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  max-width: 100%;
+  word-wrap: normal;
+  border-radius: 12px;
+  background-color: $listBackgroundColor;
+  min-height: 40px;
+
+  div {
+    word-wrap: break-word;
+    width: 100%;
+    span {
+      color: $forBlueTxtColor;
+    }
+  }
+
+}
